@@ -1,0 +1,29 @@
+body {
+    background-color: blue;
+    margin: 0;
+    padding: 0;
+}
+
+table {
+    padding: 1px groove red;
+    margin: 50px auto;
+    page-break-inside: avoid; /* Prevent the table from breaking across pages */
+}
+
+td {
+    height: 80px;
+    width: 80px;
+}
+
+#white {
+    background-color: white;
+    page-break-inside: avoid; /* Prevent the white cells from breaking across pages */
+}
+
+#black {
+    background-color: black;
+    page-break-inside: avoid; /* Prevent the black cells from breaking across pages */
+}
+
+
+ 
